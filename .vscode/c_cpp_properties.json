@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "ARM-GCC",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/imx6ul",
+                "${workspaceFolder}/project",
+                "${workspaceFolder}/bsp/led",
+                "${workspaceFolder}/bsp/delay",
+                "${workspaceFolder}/bsp/beep",
+                "${workspaceFolder}/bsp/key",
+                "${workspaceFolder}/bsp/clk",
+                "${workspaceFolder}/bsp/gpio",
+                "${workspaceFolder}/bsp/int",
+                "${workspaceFolder}/bsp/exit",
+                "${workspaceFolder}/bsp/lcd",
+                "${workspaceFolder}/bsp/rtc",
+                "${workspaceFolder}/bsp/uart",
+                "${workspaceFolder}/bsp/ap3216c",
+                "${workspaceFolder}/bsp/i2c",
+                "${workspaceFolder}/bsp/mpu9250",
+                "${workspaceFolder}/stdio/include",
+                "C:/Keil_v5/ARM/ARMCC/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__GNUC__"
+            ],
+            "intelliSenseMode": "windows-gcc-arm",
+            "compilerPath": "D:/tools/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
